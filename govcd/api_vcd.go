@@ -93,6 +93,7 @@ func (vcdCli *VCDClient) vcdCloudApiAuthorize(user, pass, org string) (*http.Res
 	vcdCli.Client.VCDToken = resp.Header.Get(BearerTokenHeader)
 	vcdCli.Client.VCDAuthHeader = BearerTokenHeader
 	vcdCli.Client.IsSysAdmin = strings.EqualFold(org, "system")
+	vcdCli.Client.VCDAuth = resp.Header.Get(AuthorizationHeader)
 	// Get query href
 	vcdCli.QueryHREF = vcdCli.Client.VCDHREF
 	vcdCli.QueryHREF.Path += "/query"
