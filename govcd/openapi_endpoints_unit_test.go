@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/reski-rukmantiyo/go-vcloud-director/v2/types/v56"
 )
 
 // TestClient_getOpenApiHighestElevatedVersion aims to test out capabilities of getOpenApiHighestElevatedVersion

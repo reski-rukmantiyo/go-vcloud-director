@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/araddon/dateparse"
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
+	"github.com/reski-rukmantiyo/go-vcloud-director/v2/types/v56"
 
 	. "gopkg.in/check.v1"
 )

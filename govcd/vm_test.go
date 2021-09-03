@@ -15,8 +15,8 @@ import (
 	"github.com/kr/pretty"
 	. "gopkg.in/check.v1"
 
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
-	"github.com/vmware/go-vcloud-director/v2/util"
+	"github.com/reski-rukmantiyo/go-vcloud-director/v2/types/v56"
+	"github.com/reski-rukmantiyo/go-vcloud-director/v2/util"
 )
 
 func init() {

@@ -6,10 +6,11 @@ package govcd
 
 import (
 	"fmt"
-	"github.com/vmware/go-vcloud-director/v2/types/v56"
-	"github.com/vmware/go-vcloud-director/v2/util"
 	"net/http"
 	"net/url"
+
+	"github.com/reski-rukmantiyo/go-vcloud-director/v2/types/v56"
+	"github.com/reski-rukmantiyo/go-vcloud-director/v2/util"
 )
 
 // In UI called VM sizing policy. In API VDC compute policy
