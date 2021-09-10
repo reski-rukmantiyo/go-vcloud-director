@@ -66,7 +66,8 @@ func (vcdCli *VCDClient) vcdCloudApiAuthorize(user, pass, org string) (*http.Res
 
 	util.Logger.Println("[TRACE] Connecting to VCD using cloudapi")
 	// This call can only be used by tenants
-	rawUrl := vcdCli.sessionHREF.Scheme + "://" + vcdCli.sessionHREF.Host + "/cloudapi/1.0.0/sessions"
+	// rawUrl := vcdCli.sessionHREF.Scheme + "://" + vcdCli.sessionHREF.Host + "/cloudapi/1.0.0/sessions"
+	rawUrl := vcdCli.sessionHREF.Scheme + "://" + vcdCli.sessionHREF.Host + "/api/sessions"
 
 	// If we are connecting as provider, we need to qualify the request.
 	if strings.EqualFold(org, "system") {
